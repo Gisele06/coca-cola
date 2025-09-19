@@ -5,6 +5,10 @@
 
 }
 
+h2{
+    color: white;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -22,6 +26,7 @@ body{
     margin: auto;
     opacity: 0.5;
     z-index: -1;
+  
 }
 
 header{
@@ -33,7 +38,7 @@ header nav{
   display: flex;
   align-items: center;
   gap: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: 75px;
   font-family: sans-serif;
   cursor: pointer;
@@ -52,7 +57,7 @@ main{
     color: #FFF;
     font-size: 2.25rem;
     width: 212px;
-    transform: translateX(-100%);
+    transform: translateX(-130%);
     text-align: end;
     margin-right: 100px;
 
